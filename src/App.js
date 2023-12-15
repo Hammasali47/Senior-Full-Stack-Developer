@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import {useState} from "react"
 
 function App() {
+
+  const [largeHandleState,setLargeHandleState]= useState()
+  const [smallHandleState,setSmallHandleState]= useState()
+
+  setTimeout(() => {
+    
+  }, 60000);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <div className="Section1"> */}
+      <div className="Section2">
+        <div className="Section3">
+          <div className="LargeHandle"></div>
+          <div className="SmallHandle"></div>
+        </div>
+      </div>
+     {/* </div> */}
     </div>
   );
 }

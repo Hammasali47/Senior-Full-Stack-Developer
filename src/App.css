@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  /* background-color: #282c34; */
+  height: 100vh;
 }
 
 .App-logo {
@@ -26,6 +28,55 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Section1 {
+  width: 400px;
+  height: 400px;
+  top: -4px;
+  left: -1045px;
+  border: 3.45px;
+  opacity: 20%;
+  background-color: #F3F3F3;
+}
+
+.Section2{
+  width: 344.83px;
+  height: 344.83px;
+  top: 23.59px;
+  left: -1017.41px;
+  border: 17.24px;
+  opacity: 0.2px;
+  background: #F3F3F3;
+}
+
+.Section3{
+  border-radius: 50%;
+  background-color: aqua;
+  height: 300px;
+}
+
+.LargeHandle{
+  width: 15.59px;
+  height: 197.75px;
+  top: 74.72px;
+  left: -714.89px;
+  /* angle: -51.26 deg; */
+  transform: rotate(51.26deg);
+  background-color: #000000;
+  margin-left: 200px;
+}
+
+.SmallHandle{
+  width: 15.59px;
+height: 125.85px;
+top: 113.93px;
+left: -916.89px;
+transform: rotate(-38.58deg);
+background-color: #000000;
+margin-left: 105px;
+margin-top: -153px;
+
 }
 
 @keyframes App-logo-spin {
